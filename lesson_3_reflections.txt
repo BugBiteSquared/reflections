@@ -4,3 +4,12 @@ I would use a remote repository if I'm concerned about the losing work on a loca
 This means pretty much any significant project I plan to work on, even including some toy problems I'm comfortable showing off. 
 On that note, my Github page is pretty sparse at the moment due to only recently making it, and working with team members
 unfamiliar with version control solutions like Git.
+
+--------------------------------------------
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It makes sense to manually pull changes due to the cases where a given pull may result in breaking your code and the fact
+that it'll become difficult to keep up with changes to code over time if the pulls come automatically. It would be much
+like having a book change while you're not reading it. Things would become disorienting rather quickly. 
+I'd personally rather have email notifications with new commits if I wanted to keep up with a project. 
+---------------------------------------------
