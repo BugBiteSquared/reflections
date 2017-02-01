@@ -9,3 +9,41 @@ The staging area may not necessarily have all the files that the working directo
 The staging area allows you to control what files exactly you intend to include in a commmit. This allows finer grain control over your commit history,
 allowing you to maintain the "one logical change per commit" rule.
 ---------------------------
+How can you use the staging area to make sure you have one commit per logical change?
+
+Stage only the files pertinent to one logical change at a time, then commit accordingly. 
+---------------------
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you're experimenting with multiple features, if you're considering multiple possible directions for a project, if you're experimentally refactoring code, etc.
+If you're experimenting with multiple features, then branches would help you keep them separate from each other and keep a functioning code base while you finalize them.
+If you're considering multiple directions, you can start multiple branches for each direction, invest a bit of time into each one until one of them becomes the favored choice,
+then merge to master. If you're experimenting with refactoring code in different ways you could do something similar.
+----------------------
+How do the diagrams help you visualize the branch structure?
+
+The diagrams allow you to visualize where the branches split off from other branches and merge together again.
+It allows you to see what specific commits the branches come off from or merge to.
+------------------------
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is a new branch that contains the merged result of the two brnaches based on the
+tip of each branch and the commit where they both diverged from the original common branch. Lines and files removed from the
+original are removed and lines and files added to the original are kept(?). The new commit stores information about both of its
+parents.
+--------------------------
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Manually merging allows total control, but requires a lot of coordination and effort.
+
+Non-exhaustive list of pros and cons:
+Pros (for auto merging):
+simpler
+allows conflict resolution
+
+Cons:
+less control
+details may be lost
+------------------------
+
+
