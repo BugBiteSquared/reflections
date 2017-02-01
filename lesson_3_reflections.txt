@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+I would use a remote repository if I'm concerned about the losing work on a local repository or if I want to collaborate on a project.
+This means pretty much any significant project I plan to work on, even including some toy problems I'm comfortable showing off. 
+On that note, my Github page is pretty sparse at the moment due to only recently making it, and working with team members
+unfamiliar with version control solutions like Git.
