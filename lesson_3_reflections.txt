@@ -32,3 +32,8 @@ You would use branches to similar to forks, but on a smaller scale, building on 
 branches.
 
 These are very qualitative descriptions and may not be airtight. 
+-------------------
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It's helpful to know the last known state of the remote whether you're airgapped (not connected to the internet) or not. 
+You can use git fetch followed by git status to determinen if there's a conflict between your local changes and the remote.
