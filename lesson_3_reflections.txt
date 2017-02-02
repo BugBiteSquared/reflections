@@ -37,3 +37,18 @@ What is the benefit of having a copy of the last known state of the remote store
 
 It's helpful to know the last known state of the remote whether you're airgapped (not connected to the internet) or not. 
 You can use git fetch followed by git status to determinen if there's a conflict between your local changes and the remote.
+------------------
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I have collaborated without Git or Github (or any formal version control system) in the past, and it's not particularly
+easy, elegant, or fun. Files can be emailed back and forth, cloud-based storage systems like Dropbox, Box, and Google Drive
+can be used, but keeping track of changes and versions becomes difficult quickly, even for small projects. It would be
+easier to learn how to use email and these cloud-storage services, but keeping everybody on the same page with regards to
+changes would be difficult. You would have to just post entirely new versions of source code files in order to avoid conflicts
+and would run into concurrency problems not unlike the race-conditions seen in multithreaded programming (two or more "writers"
+trying to access a resource at the same time).
+
+This is why you almost always want to use some sort of version control system, and this is why I'm evaluating this Udacity 
+course for training team members to use Git and Github. It's worth it in the end to take the time to teach team members to
+use a VCS as opposed to using more intuitive, but less effective systems. 
+------------------
