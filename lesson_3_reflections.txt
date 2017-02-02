@@ -52,3 +52,14 @@ This is why you almost always want to use some sort of version control system, a
 course for training team members to use Git and Github. It's worth it in the end to take the time to teach team members to
 use a VCS as opposed to using more intuitive, but less effective systems. 
 ------------------
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would do this when you want to try to ensure that a change or feature you're intending to make to the master branch is production ready
+before integration. This goes back to the idea of working in separate branches and why you would want to do that.
+Working in a separate branch from master allows you to develop the code for a feature while allowing yourself some
+room to experiment and debug until you have production ready code that's ready to be integrated into the definitive
+version of your project, the "master". That final integration is where pull requests and merging come in.
+
+The benefits that this approach has include some insurance that the master branch will remain functional the whole time
+and the thorough checking of the code to be merged into the master during the whole process. Changes are communicated and
+approved before they can do serious harm to the functionality of the project. 
