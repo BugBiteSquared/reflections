@@ -13,3 +13,22 @@ that it'll become difficult to keep up with changes to code over time if the pul
 like having a book change while you're not reading it. Things would become disorienting rather quickly. 
 I'd personally rather have email notifications with new commits if I wanted to keep up with a project. 
 ---------------------------------------------
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks:
+Effectively clones of a given repository that are handled on Github's end. Good for if you want to build on someone
+else's prexisting repository.
+
+Clones:
+A local "clone" of a repository on your machine. You clone a repository to have a copy of its contents so that you can
+modify them and play with them as you see fit. Includes cloning from Github and from your local machine.
+Afterwards you may commit and push changes if you have permissions, or simply modify and view files and directories.
+
+Branches:
+A branch is a sort of running history (including the "present", the tip) of a given piece of code or work.
+A branch can spawn more branches that may eventually merge back together. For example, this splitting is good
+for keeping a module effectively separate from the main "master" branch until it's ready to be assembled.
+You would use branches to similar to forks, but on a smaller scale, building on the work from one or more other
+branches.
+
+These are very qualitative descriptions and may not be airtight. 
